@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "name": "hot-miner",
+  "version": "1.0.0",
+  "author": "Mario Reder <mario.reder@pm.me>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "tsx src/main.ts",
+    "lint": "prettier --check . && eslint . --ext .js,.jsx,.ts,.tsx,.svelte",
+    "format": "prettier --write . && yarn eslint --fix ."
+  },
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "near-api-js": "^3.0.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.20.0",
+    "@typescript-eslint/parser": "^6.20.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-typescript": "^3.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.2.4",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
