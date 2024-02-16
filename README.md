@@ -1,5 +1,7 @@
 # HOT miner
 
+_The use of automated HOT mining software is prohibited. It can lead to blocking of the miner's account and loss of all earned HOT._
+
 A script to automatically mine HOT every 2 hours.
 
 ## Setup
